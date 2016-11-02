@@ -145,3 +145,76 @@ img#logo {
 }
 
 
+
+.titleTra{
+	margin-top: 3.75rem;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.subtitleTra {
+	text-align: center;
+    font-size: x-large;
+    margin-top: 3.75rem;
+    margin-bottom: 2%;
+}
+
+
+#trabajos {
+    height: 25rem;
+    margin-top: 22%;
+    margin-left: 3.75rem;
+}
+
+
+.contentTra {
+	height: 18.75rem;
+    overflow: hidden;
+}
+
+.imagen {
+	width: 17.5rem;
+    height: 12.5rem;
+    -webkit-transition: margin-top .4s;
+}
+
+.info {
+	width: 17.5rem;
+    height: 0px;
+    background-color: rgb(23, 23, 25);
+    overflow: hidden;
+    -webkit-transition: height .4s;
+}
+
+.titulo {
+    margin: 5% 5% 0% 5%;
+    font-size: 1.3em;
+    font-family: monospace;
+    color: #9a9ca9;
+}
+
+.adicional {
+    color: white;
+    font-size: 0.8em;
+    margin: 0% 2% 5% 5%;
+}
+
+.link {
+	float: right;
+    font-size: 1em;
+    color: white;
+    margin-top: -25%;
+    margin-right: 5%;
+    padding: 2% 6%;
+    text-decoration: none;
+    background-color: rgba(206, 181, 94, 0.9);
+}
+
+.contentTra:hover .info {
+	height: 5.625rem;
+}
+
+.contentTra:hover .imagen {
+	margin-top: 1%;
+}
