@@ -309,3 +309,15 @@ img#logo {
     padding: 12px;
     background-color: aliceblue;
 }
+
+#contactame {
+	background-color: #222;
+	height: 13rem;
+}
+
+.iconoC {
+	color: #FFF;
+    margin-top: 5%;
+    font-size: 3em;
+    text-align: center;
+}
