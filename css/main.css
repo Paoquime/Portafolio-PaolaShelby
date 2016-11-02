@@ -321,3 +321,17 @@ img#logo {
     font-size: 3em;
     text-align: center;
 }
+
+#footerP {
+	background-image: url(../img/loto.jpg);
+	height: 130px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.textF {
+    font-size: 1.2em;
+    margin-left: 42%;
+    margin-top: 5%;
+    position: absolute;
+}
