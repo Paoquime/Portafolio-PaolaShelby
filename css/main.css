@@ -276,3 +276,36 @@ img#logo {
     margin-left: 7%;
     position: absolute;
 }
+
+#acercaDeMi {
+	height: 39.8125rem;
+	background-size: cover;
+	background-image: url("../img/foto.jpg");
+	background-repeat: no-repeat;
+}
+
+.yoText {
+	color: #FFF;
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 1%;
+    font-size: 1.3em;
+}
+
+#acercaDeMi img {
+	width: 2%;
+    height: 12%;
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 5%;
+}
+
+.textAcerca {
+	color: #000;
+    font-size: 1.4em;
+    text-align: justify;
+    margin-top: 40%;
+    margin-left: 4%;
+    padding: 12px;
+    background-color: aliceblue;
+}
