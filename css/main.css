@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
+@import url("https://fonts.googleapis.com/css?family=Bungee+Hairline");
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 
 * {
 	margin: 0;
@@ -7,20 +10,19 @@
 
 body {
 	margin: 0;
-	background-color: #222;
-
+	font-family: 'Raleway', sans-serif;
 }
 
 .antiScroll {
 	top: 0;
 	color: #fff;
 	width: 100%;
-	height: 37.5rem;
+	height: 39.8125rem;
 	display: flex;
 	position: absolute;
 	background-color: #222;
 }
-	
+
 .logo {
 	width: 20%;
     left: 40%;
@@ -54,7 +56,7 @@ body {
 }
 
 
-.textMove.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+.textMove.hidden li:nth-child(1) { transform: translateX(-12px) translateY(-200px); }
 .textMove.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
 .textMove.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
 .textMove.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
@@ -81,14 +83,65 @@ body {
 
 .antiScroll a:hover {
 	font-size: 1.4em;
-	text-shadow: 2px 2px #FFF;
-	-webkit-transition: .5s;
+	text-shadow: 0.125rem 0.125rem #FFF;
 }
 
-.container {
-	margin-left: 15%;
+section#banner {
+	background-image: url(../img/loto.jpeg);
+	background-size: 100%;
+	height: 39.8125rem;
+	background-repeat: no-repeat;
 }
 
+.opacidad {
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+	height: 39.8125rem;
+}
 
+header {
+	position: fixed;
+	width: 100%;
+	height:  4.375rem;
+	background-color: transparent;
+	-webkit-transition: background-color .5s;
+}
+
+.nHeader {
+	display: table;
+	margin: auto;
+	margin-top: 0.9375rem;
+	height:  2.5rem;
+	-webkit-transition: margin-left .5s;
+}
+
+.ulHeader {
+	display: block;
+	float: left;
+	list-style: none;
+}
+
+.ulHeader li {
+	float: left;
+	margin:  0.625rem;
+	padding: 0.125rem;
+}
+
+.ulHeader a {
+	color: #F3F3F3;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+img#logo {
+	float:left;
+	display: block;
+	margin-left: 1.875rem;
+	margin-right: 1.875rem;
+	margin-top:  9.375rem;
+	-webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+}
 
 
