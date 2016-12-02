@@ -14,13 +14,13 @@
 		<header>
 			<nav class="nHeader">
 				<ul class="ulHeader">
-					<a href="#"'><li>Trabajos</li></a>
-					<a href="#"><li>Habilidades</li></a>
+					<a href="#trabajos"'><li>Trabajos</li></a>
+					<a href="#habilidades"><li>Habilidades</li></a>
 				</ul>
-					<a href="inicio.html"><img id='logo' src='img/logo.png'></a>
+					<a href="inicio.html"><img id='logo' src='img/pao.png'></a>
 				<ul class="ulHeader">
-					<a href="#"><li>Acerca de mí</li></a>
-					<a href="#"><li>Contáctame</li></a>
+					<a href="#acercaDeMi"><li>Acerca de mí</li></a>
+					<a href="#contactame"><li>Contáctame</li></a>
 				</ul>
 			</nav>
 		</header>
@@ -30,44 +30,46 @@
 			<p class="subtitleTra">Estos son algunos de los proyectos desarrollados durante mi formación</p>
 		</section>
 		<section id='trabajos'>
-			<div class="col-3 contentTra">
-				<div class="imagen">
-					<img src="img/responsive.jpg" class="imagen">
+			<div class="row">
+				<div class="col-3 contentTra">
+					<div class="imagen">
+						<img src="img/responsive.jpg" class="imagen">
+					</div>
+					<div class="info">
+						<p class="titulo">Responsive Blog</p></br>
+						<p class="adicional">Ejercicio de css</br>hecho con Simple Grid.</p>
+						<a class="link" href="https://paoquime.github.io/Responsive-blog/">VER</a>
+					</div>
 				</div>
-				<div class="info">
-					<p class="titulo">Responsive Blog</p></br>
-					<p class="adicional">Ejercicio de css</br>hecho con Simple Grid.</p>
-					<a class="link" href="https://paoquime.github.io/Responsive-blog/">VER</a>
+				<div class="col-3 contentTra">
+					<div class="imagen">
+						<img src="img/trello.jpg" class="imagen">
+					</div>
+					<div class="info">
+						<p class="titulo">Trello</p></br>
+						<p class="adicional">Proyecto hecho con JS.</p>
+						<a class="link" href="https://paoquime.github.io/Trello-js/">VER</a>
+					</div>
 				</div>
-			</div>
-			<div class="col-3 contentTra">
-				<div class="imagen">
-					<img src="img/trello.jpg" class="imagen">
+				<div class="col-3 contentTra">
+					<div class="imagen">
+						<img src="img/portafolio.jpg" class="imagen">
+					</div>
+					<div class="info">
+						<p class="titulo">Portafolio</p></br>
+						<p class="adicional">Ejercicio hecho con</br> Bootstrap.</p>
+						<a class="link" href="https://paoquime.github.io/Mi-portafolio/">VER</a>
+					</div>
 				</div>
-				<div class="info">
-					<p class="titulo">Trello</p></br>
-					<p class="adicional">Proyecto hecho con JS.</p>
-					<a class="link" href="https://paoquime.github.io/Trello-js/">VER</a>
-				</div>
-			</div>
-			<div class="col-3 contentTra">
-				<div class="imagen">
-					<img src="img/portafolio.jpg" class="imagen">
-				</div>
-				<div class="info">
-					<p class="titulo">Portafolio</p></br>
-					<p class="adicional">Ejercicio hecho con</br> Bootstrap.</p>
-					<a class="link" href="https://paoquime.github.io/Mi-portafolio/">VER</a>
-				</div>
-			</div>
-			<div class="col-3 contentTra">
-				<div class="imagen">
-					<img src="img/twitter.jpg" class="imagen">
-				</div>
-				<div class="info">
-					<p class="titulo">Twitter</p></br>
-					<p class="adicional">Proyecto hecho</br> con eventos de JS.</p>
-					<a class="link" href="https://paoquime.github.io/Ejercicio-twiter/">VER</a>
+				<div class="col-3 contentTra">
+					<div class="imagen">
+						<img src="img/twitter.jpg" class="imagen">
+					</div>
+					<div class="info">
+						<p class="titulo">Twitter</p></br>
+						<p class="adicional">Proyecto hecho</br> con eventos de JS.</p>
+						<a class="link" href="https://paoquime.github.io/Ejercicio-twiter/">VER</a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -95,18 +97,18 @@
 		<section class="container-fluid" id="acercaDeMi">
 			<p class="yoText">Aquì estoy yo!</p>
 			<img src="img/flecha-negra.png">
-			<div class="col-4">
-				<p class="textAcerca">Hola! Mi nombre es Paola Shelby, soy una joven entusiasta, con un gran amor por la vida, me gusta ser responsable en las cosas que emprendo, pero sobre todo soy muy creativa. Me encantan los retos y lo que pueda aprender de ellos. Creo que todos estamos en constante aprendizaje y por ello siempre darè mi mejor esfuerzo en lo que haga.</p>
+			<div class="col-4 contentText">
+				<p class="textAcerca">Hola! Mi nombre es Paola Shelby, soy una joven entusiasta, me gusta ser responsable en las cosas que emprendo, pero sobre todo soy muy creativa. Me encantan los retos y lo que pueda aprender de ellos. Creo que todos estamos en constante aprendizaje y por ello siempre darè mi mejor esfuerzo en lo que haga.</p>
 			</div>
 		</section>
 		<section class="container-fluid" id="contactame">
-			<i class="col-4 fa fa-file-archive-o iconoC"></i>
-			<i class="col-4 fa fa-github-square iconoC"></i>
-			<i class="col-4 fa fa-linkedin iconoC"></i>
+			<a href="pdf/cv-PaolaShelby.pdf"><i class="col-4 fa fa-file-archive-o iconoC"><p class="letraC">Cv</p></i></a>
+			<a href="https://github.com/Paoquime"><i class="col-4 fa fa-github-square iconoC"><p class="letraC">Github</p></i></a>
+			<a href="https://www.linkedin.com/in/paolashelby"><i class="col-4 fa fa-linkedin iconoC"><p class="letraC">Linkedin</p></i></a>
 		</section>
 		<footer class="container-fluid" id="footerP">
 			<div>
-				<p class="textF">Copyrigth ©  Paola Shelby </p>
+				<p class="textF">Copyright ©  Paola Shelby </p>
 			</div>
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>

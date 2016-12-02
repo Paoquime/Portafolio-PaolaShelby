@@ -7,6 +7,7 @@ $(function() {
 $(document).ready(function(){
 
 	$("#banner").css({"height":$(window).height() + "px"});
+	$("#logo").css({"margin-top": "150px", "width": "250px","height":"250px"});
 
 	var flag = false;
 	var scroll;
@@ -18,7 +19,7 @@ $(document).ready(function(){
 			if(!flag){
 				$("#logo").css({"margin-top": "-5px", "width": "50px","height":"50px"});
 
-				$("header").css({"background-color": "rgba(0,0,0,0.5)"});
+				$("header").css({"background-color": "rgba(15, 13, 13, 0.86)"});
 				flag = true;
 			}
 		}else{

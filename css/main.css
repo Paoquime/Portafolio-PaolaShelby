@@ -74,9 +74,14 @@ body {
 .textMove.hidden li:nth-child(16) { transform: translateX(-8px) translateY(-90px); }
 .textMove.hidden li:nth-child(17) { transform: translateX(15px) translateY(-250px); }
 
+.container {
+	margin-left: 15%;
+}
+
 .antiScroll a {
 	color: white;
     margin-top: 45%;
+    transition: 0.5s;
     text-decoration: none;
     font-family: 'Bungee Hairline', cursive;
 }
@@ -284,17 +289,22 @@ img#logo {
 	background-repeat: no-repeat;
 }
 
+.contentText {
+	width: 425px;
+    margin-left: 6%;
+}
+
 .yoText {
-	color: #FFF;
+    color: #FFF;
     position: absolute;
-    margin-left: 87%;
+    margin-left: 84%;
     margin-top: 1%;
-    font-size: 1.3em;
+    font-size: 2em;
 }
 
 #acercaDeMi img {
-	width: 2%;
-    height: 12%;
+	width: 3%;
+    height: 13%;
     position: absolute;
     margin-left: 90%;
     margin-top: 5%;
@@ -322,16 +332,23 @@ img#logo {
     text-align: center;
 }
 
+.letraC {
+	font-family:'Bungee Shade', cursive;
+	font-size: 0.6em;
+    margin-top: 6%;
+}
+
 #footerP {
-	background-image: url(../img/loto.jpg);
-	height: 130px;
-	background-repeat: no-repeat;
-	background-size: 100%;
+    background-image: url(../img/loto.jpg);
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .textF {
-    font-size: 1.2em;
+ 	font-size: 1.2em;
     margin-left: 42%;
-    margin-top: 5%;
+    margin-top: 4%;
     position: absolute;
+    color: #222;
 }
